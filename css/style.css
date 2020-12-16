@@ -5,6 +5,7 @@
   --accent-color: #2196f3;
   --logo-part-two-color: #000000;
   --footer-background-color: #2f303a;
+  --button-background: #f5f4fa;
 }
 
 a {
@@ -85,6 +86,10 @@ body {
 /* button */
 
 .button {
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 4px;
+
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -164,11 +169,20 @@ body {
 
 /* portfolio page */
 
+.buttons {
+  display: flex;
+}
+
 .button-portfolio {
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 4px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.7;
   text-align: center;
+  background-color: var(--button-background);
 }
 .button-portfolio:hover,
 .button-portfolio:focus {
