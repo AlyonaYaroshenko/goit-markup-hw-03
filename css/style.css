@@ -31,7 +31,22 @@ body {
   color: var(--title-color);
 }
 
+.container {
+  width: 1200px;
+}
+
+.header > .container {
+  display: flex;
+  align-items: center;
+}
+
 /* logo */
+
+.logo {
+  margin: 24px 93px 25px 15px;
+  border: 0px;
+}
+
 .logo-part-one,
 .logo-part-one-footer,
 .logo-part-two {
@@ -47,6 +62,35 @@ body {
 }
 
 /* nav */
+
+.nav {
+  display: inline-block;
+  display: flex;
+  padding: 0px;
+}
+.site-nav {
+  display: inline-block;
+  display: flex;
+  margin: 32px 331px 32px 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+.site-nav > .item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.adress-container {
+  display: inline-block;
+  display: flex;
+  margin: 32px 15px 32px 0px;
+  padding: 0px;
+}
+
+.adress-container > .adress:not(:last-child) {
+  margin-right: 50px;
+  padding: 0px;
+}
 
 .site-nav .nav-link.current {
   color: var(--title-color);
@@ -75,6 +119,7 @@ body {
 /* hero */
 
 .hero {
+  margin-top: 0px;
   height: 600px;
   background-color: var(--footer-background-color);
 }
@@ -93,10 +138,14 @@ body {
 
 .button {
   display: inline-block;
+  display: flex;
   padding: 10px 32px;
+  border: none;
   border-radius: 4px;
   margin-left: auto;
   margin-right: auto;
+  font: inherit;
+  cursor: pointer;
 
   font-weight: 700;
   font-size: 16px;
@@ -178,19 +227,21 @@ body {
 /* portfolio page */
 
 .buttons-container {
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
 }
 
 .buttons {
   display: inline-block;
   display: flex;
   font: inherit;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .button-portfolio {
   border: none;
   border-radius: 4px;
+  cursor: pointer;
 
   font-weight: 500;
   font-size: 16px;

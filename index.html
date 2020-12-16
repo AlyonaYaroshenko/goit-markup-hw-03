@@ -15,32 +15,35 @@
     <link rel="stylesheet" href="./css/style.css">
   </head>
 <body>
-   <header>
-    <nav class="nav-container">
+   <header class="header">
+    <div class="container">
+    <nav class="nav">
       <a class="logo" href="./index.html"><span class="logo-part-one">Web</span><span class="logo-part-two difference">Studio</span></a>
-      
-    <!-- ./index.html???--> 
       <ul class="site-nav">
-            <li><a class="nav-link current" href="./index.html">Студия</a></li>
-            <li><a class="nav-link" href="./portfolio.html">Портфолио</a></li>
-            <li><a class="nav-link" href="">Контакты</a></li>
+            <li class="item"><a class="nav-link current" href="./index.html">Студия</a></li>
+            <li class="item"><a class="nav-link" href="./portfolio.html">Портфолио</a></li>
+            <li class="item"><a class="nav-link" href="">Контакты</a></li>
         </ul>
-    </nav>
+        </nav>
         <ul class="adress-container">
-            <li><a class="adress difference" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="adress difference" href="tel:+380991111111">+38 096 111 11 11</a></li>
+            <li class="adress"><a class="adress difference" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="adress"><a class="adress difference" href="tel:+380991111111">+38 096 111 11 11</a></li>
         </ul>
+        </div>
    </header> 
    
    <!-- Hero -->
    <main>
        <section class="hero">
+        <div class="container">
            <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
    <!-- button --> 
            <p style="text-align: center"><button class="button">Заказать услугу</button></p>
-       </section>
+       </div>
+          </section>
    <!-- Advantages -->
         <section>
+          <div class="container">
                <ul>
                    <li>
                      <h2></h2>
@@ -68,9 +71,11 @@
                         </p>
                     </li>
                </ul>
+              </div>
         </section>
   <!-- What we do -->
         <section>
+          <div class="container">
             <h2 class="features-title">Чем мы занимаемся</h2>
              <ul>
                  <li>
@@ -92,9 +97,11 @@
                     </a>
                  </li>
              </ul>
+            </div>
         </section>
  <!-- Our team -->
         <section>
+          <div class="container">
             <h2 class="team-title">Наша команда</h2>
               <ul>
                   <li>
@@ -130,15 +137,18 @@
                         <p class="position">UI Designer</p>
                  </li>
               </ul>
+              </div>
         </section>
    </main>
    <footer>
-   <div class="footer"> 
+   <div class="container"> 
+     <div>
           <a class="logo-footer" href="./index.html"><span class="logo-part-one-footer">Web</span><span class="logo-part-two-footer difference">Studio</span></a>
      <address class="adress-footer">г. Киев, пр-т Леси Украинки, 26 <br /></address>
           <a class="contacts-footer difference" href="mailto:info@example.com">info@example.com</a> <br />
           <a class="contacts-footer difference" href="tel:+380991111111">+38 099 111 11 11</a>
-    </div> 
+    </div>
+        </div> 
    </footer>
 </body>
 </html>
