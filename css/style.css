@@ -213,6 +213,23 @@ body {
 
 /* what we do */
 
+.features-title {
+  margin-top: 94px;
+  margin-bottom: 50px;
+}
+
+.features-list {
+  display: inline-block;
+  display: flex;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 94px;
+}
+
+.features-list > .features-photos:not(:last-child) {
+  margin-right: 30px;
+}
+
 .features-title,
 .team-title {
   font-weight: 700;
@@ -222,6 +239,22 @@ body {
 }
 
 /* team */
+
+.team-title {
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+.team-list {
+  display: inline-block;
+  display: flex;
+  margin-top: 0px;
+  margin-bottom: 94px;
+}
+
+.team-list > .team-photos:not(:last-child) {
+  margin-right: 30px;
+}
 
 .team-names {
   font-weight: 500;
