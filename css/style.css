@@ -273,7 +273,16 @@ body {
 /* footer */
 
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: var(--footer-background-color);
+}
+
+.logo-footer {
+  margin-left: 15px;
+  margin-top: 60px;
+  margin-bottom: 0px;
+  padding: 0px;
 }
 
 .logo-part-one-footer,
@@ -289,11 +298,35 @@ body {
   color: var(--white-color);
 }
 
+.adress-footer {
+  margin-left: 15px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+.footer-list {
+  padding: 0px;
+  margin-top: 9px;
+  margin-bottom: 0px;
+}
+
 .adress-footer,
 .contacts-footer {
   line-height: 1.71;
   font-style: inherit;
   color: var(--white-color);
+}
+
+.adress-bottom {
+  margin-left: 15px;
+  margin-top: 0px;
+  margin-bottom: 9px;
+  padding: 0px;
+}
+
+.adress-bottom:last-child {
+  margin-bottom: 0px;
 }
 
 .contacts-footer.difference {
