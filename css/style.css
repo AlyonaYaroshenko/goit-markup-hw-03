@@ -381,6 +381,7 @@ body {
 
 .portfolio-photos {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .portfolio-text {
