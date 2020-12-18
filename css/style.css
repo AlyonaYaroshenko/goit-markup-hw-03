@@ -171,24 +171,25 @@ body {
 }
 
 /* advantages */
-.h2 {
+/* .h2,
+.h1 {
   margin: 0px;
   padding: 0px;
-}
+} */
 
-/* .visually-hidden {
+.visually-hidden {
   position: absolute;
   clip: rect (0 0 0 0);
   width: 1px;
   height: 1px;
   margin: -1px;
-} */
+}
 
 .advantages {
   display: inline-block;
   display: flex;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 0px;
+  margin-right: 0px;
   margin-top: 90px;
   margin-bottom: 94px;
   padding: 0px;
@@ -225,8 +226,8 @@ body {
 .features-list {
   display: inline-block;
   display: flex;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 0px;
+  margin-right: 0px;
   margin-bottom: 94px;
 }
 
@@ -333,8 +334,15 @@ body {
 
 /* portfolio page */
 
+.header-portfolio {
+  border-bottom: 1px solid;
+  color: #ececec;
+}
+
 .buttons-container {
   display: flex;
+  margin-top: 94px;
+  margin-bottom: 34px;
 }
 
 .buttons > .item:not(:last-child) {
