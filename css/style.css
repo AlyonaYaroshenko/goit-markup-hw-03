@@ -356,9 +356,12 @@ body {
   color: #ececec;
 }
 
+.portfolio-section {
+  padding-top: 94px;
+}
+
 .buttons-container {
   display: flex;
-  margin-top: 94px;
 }
 
 .buttons > .item:not(:last-child) {
