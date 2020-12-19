@@ -358,6 +358,7 @@ body {
 
 .portfolio-section {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .buttons-container {
@@ -438,8 +439,4 @@ body {
   font-size: 16px;
   line-height: 1.9;
   color: var(--main-text-color);
-}
-
-.portfolio-section {
-  padding-bottom: 94px;
 }
