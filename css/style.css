@@ -170,13 +170,6 @@ body {
   background-color: var(--accent-color);
 }
 
-/* advantages */
-/* .h2,
-.h1 {
-  margin: 0px;
-  padding: 0px;
-} */
-
 .visually-hidden {
   position: absolute;
   clip: rect (0 0 0 0);
@@ -228,7 +221,7 @@ body {
   display: flex;
   margin-left: 0px;
   margin-right: 0px;
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 .features-list > .features-photos:not(:last-child) {
@@ -244,21 +237,38 @@ body {
 }
 
 /* team */
+.team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: var(--button-background);
+}
 
 .team-title {
   margin-top: 0px;
   margin-bottom: 50px;
 }
 
-.team-list {
+.team-photos {
   display: inline-block;
-  display: flex;
-  margin-top: 0px;
-  margin-bottom: 94px;
 }
 
-.team-list > .team-photos:not(:last-child) {
-  margin-right: 30px;
+.team-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.caption {
+  width: 270px;
+  background-color: var(--white-color);
+  margin: 0px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border: 0px;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-list > .team-photos:not(:first-child) {
+  margin-left: 30px;
 }
 
 .team-names {
@@ -266,6 +276,7 @@ body {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+  margin: 0px 0px 10px 0px;
 }
 
 .position {
@@ -273,6 +284,7 @@ body {
   line-height: 1.19;
   text-align: center;
   color: var(--main-text-color);
+  margin: 0px;
 }
 
 /* footer */
