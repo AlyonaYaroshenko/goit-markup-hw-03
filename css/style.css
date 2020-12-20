@@ -33,6 +33,10 @@ body {
   color: var(--title-color);
 }
 
+img {
+  display: block;
+}
+
 .container {
   width: 1200px;
   margin-left: auto;
@@ -253,13 +257,9 @@ body {
   margin-bottom: 50px;
 }
 
-.team-photos {
-  display: inline-block;
-}
-
 .team-list {
+  display: inline-block;
   display: flex;
-  flex-wrap: wrap;
 }
 
 .caption {
@@ -268,7 +268,7 @@ body {
   margin: 0px;
   padding-top: 30px;
   padding-bottom: 30px;
-  border: 0px;
+  border: none;
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -376,7 +376,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   padding: 0px;
-  font-weight: 500;
+  /* font-weight: 500; */
 }
 
 .button-portfolio {
@@ -385,8 +385,8 @@ body {
   cursor: pointer;
   padding: 6px 22px;
 
-  font-family: inherit;
-  /* font-weight: 500; */
+  /* font-family: inherit; */
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.7;
   text-align: center;
@@ -397,6 +397,7 @@ body {
   background-color: var(--accent-color);
   color: var(--white-color);
 }
+/* portfolio photos */
 
 .portfolio-photos {
   display: flex;
